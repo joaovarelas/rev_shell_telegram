@@ -1,0 +1,11 @@
+[package]
+name = "rev_shell_telegram"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+frankenstein = { version = "0.21", default-features = true, features = ["async-http-client"] }
+tokio = { version = "1", features = ["full"] }
+sysinfo = "0.26.8"
