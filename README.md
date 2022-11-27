@@ -1,6 +1,17 @@
 # rev_shell_telegram
 Rust program to execute commands remotely through Telegram Bot API.
 
+# Demo
+
+## Windows
+
+<img src="static/demo_windows.png " width="700">
+
+
+## Linux
+
+<img src="static/demo_linux.png " width="700">
+
 
 # Usage
 
@@ -26,8 +37,13 @@ static MASTER: u64 = YOUR-TELEGRAM-USER-ID;
 
 
 
-# Dependencies
+## Dependencies
 
 - Frankenstein (Telegram API Client in Rust, credits to @ayrat555): [https://github.com/ayrat555/frankenstein/](https://github.com/ayrat555/frankenstein/)
 - tokio.rs
 - sysinfo
+
+
+## Disclaimer
+
+For educational and ethical purposes. Expect bugs, crashes and ugly Rust code. 
